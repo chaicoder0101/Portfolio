@@ -5,8 +5,10 @@
 }
 
 .text {
+	font-display: flex;
 	text-align: center;
-	font-display: block;
 	font-size: 50px;
+	margin-top: 50vh;
+
 	/* flex: 3rem; */
 }
