@@ -9,7 +9,11 @@
 
 html,
 body {
-	width: 100%;
+	background: url(sky2.png)no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .text {
@@ -26,11 +30,15 @@ body {
 }
 
 .background {
-	/* background: center center/cover; */
-	width: 195vh;
-	height: 100vh;
+	/* background: url(sky2.png)no-repeat center center fixed; */
+	/* width: auto;
+	height: auto; */
 	/* width: auto; */
 	/* height: auto; */
 	/* min-width: 100%;
 	max-height: 20%; */
+	/* -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; */
 }

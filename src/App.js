@@ -8,7 +8,7 @@ function App() {
 		<Fragment>
 			<div className="container">
 				<NavBar />
-				<Main />
+				{/* <Main /> */}
 			</div>
 		</Fragment>
 	);
