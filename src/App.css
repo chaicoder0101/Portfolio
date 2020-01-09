@@ -1,7 +1,15 @@
 * {
 	margin: 0;
 	padding: 0;
-	background-color: lightblue;
+}
+
+.container {
+	min-width: 100%;
+}
+
+html,
+body {
+	width: 100%;
 }
 
 .text {
@@ -11,4 +19,18 @@
 	margin-top: 50vh;
 
 	/* flex: 3rem; */
+}
+
+.navbar {
+	min-width: 100vh;
+}
+
+.background {
+	/* background: center center/cover; */
+	height: 100vh;
+
+	/* width: auto; */
+	/* height: auto; */
+	/* min-width: 100%;
+	max-height: 20%; */
 }

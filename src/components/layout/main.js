@@ -1,13 +1,10 @@
 import React from 'react';
+import img from '../../sky2.png';
 
 const main = () => {
-	const main = 'Tenzin Gyurmey';
+	// const main = 'Tenzin Gyurmey';
 
-	return (
-		<div className="text">
-			<h1>{main}</h1>
-		</div>
-	);
+	return <img src={img} className="background" alt="background" />;
 };
 
 export default main;
