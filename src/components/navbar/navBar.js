@@ -7,6 +7,7 @@ const navBar = () => {
 				<a className="navbar-brand" href="#">
 					Why Hire Me?
 				</a>
+
 				<button
 					className="navbar-toggler"
 					type="button"

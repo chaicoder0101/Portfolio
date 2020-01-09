@@ -27,8 +27,8 @@ body {
 
 .background {
 	/* background: center center/cover; */
+	width: 195vh;
 	height: 100vh;
-
 	/* width: auto; */
 	/* height: auto; */
 	/* min-width: 100%;
