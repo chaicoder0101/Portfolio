@@ -1,9 +1,8 @@
 import React from 'react';
-// import img from '../../sky2.png';
 
 const main = () => {
-	// const main = 'Tenzin Gyurmey';
-	// return <img src={img} className="background" alt="background" />;
+	const main = 'Tenzin Gyurmey';
+	return <h1>{main}</h1>;
 };
 
 export default main;
