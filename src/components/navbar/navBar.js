@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const navBar = () => {
 	return (
 		<div className="pos-f-t">
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
-				<a className="navbar-brand" href="#">
+				<Link className="navbar-brand" to="/">
 					Why Hire Me?
-				</a>
+				</Link>
 
 				<button
 					className="navbar-toggler"
@@ -20,18 +21,18 @@ const navBar = () => {
 				</button>
 				<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div className="navbar-nav">
-						<a class="nav-item nav-link active" href="#">
+						<Link class="nav-item nav-link active" to="AboutMe">
 							About Me <span class="sr-only">(current)</span>
-						</a>
-						<a className="nav-item nav-link" href="#">
+						</Link>
+						<Link className="nav-item nav-link" to="Projects">
 							Projects
-						</a>
-						<a className="nav-item nav-link" href="#">
+						</Link>
+						<Link className="nav-item nav-link" to="ContactMe">
 							Contact Me
-						</a>
-						<a className="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+						</Link>
+						<Link className="nav-item nav-link " to="Testimonials">
 							Testimonials
-						</a>
+						</Link>
 					</div>
 				</div>
 			</nav>
