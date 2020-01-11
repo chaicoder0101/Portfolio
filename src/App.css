@@ -16,29 +16,34 @@ body {
 	background-size: cover;
 }
 
-.text {
-	font-display: flex;
-	text-align: center;
-	font-size: 50px;
-	margin-top: 50vh;
-
-	/* flex: 3rem; */
-}
-
 .navbar {
 	min-width: 100vh;
 }
 
-.background {
-	/* background: url(sky2.png)no-repeat center center fixed; */
-	/* width: auto;
-	height: auto; */
-	/* width: auto; */
-	/* height: auto; */
-	/* min-width: 100%;
-	max-height: 20%; */
-	/* -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover; */
+.TypeWriter {
+	margin-top: 12.5rem;
+	margin-left: 25rem;
+}
+
+.projects{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.card{
+	flex: 0 1 15%;
+	/* flex-basis: 10em; */
+	margin-top:10rem;
+	margin-left: 7rem;
+}
+
+.testimonials{
+	border: #ccc solid 1px;
+	background-color: antiquewhite;
+	margin-top:8rem;
+}
+
+.quote{
+	float: right;
 }

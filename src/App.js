@@ -7,24 +7,24 @@ import AboutMe from './components/pages/AboutMe';
 import Testimonials from './components/pages/Testimonials';
 import ContactMe from './components/pages/ContactMe';
 import Projects from './components/pages/Projects';
+// import Typical from 'react-typical';
 
 function App() {
 	return (
 		<div className="container">
 			<Router>
 				<NavBar />
-				<Main />
+				{/* <Main /> */}
 
 				<Switch>
+					<Route exact path="/" component={Main} />
 					<Route exact path="/AboutMe" component={AboutMe} />
 					<Route exact path="/ContactMe" component={ContactMe} />
 					<Route exact path="/Projects" component={Projects} />
 					<Route exact path="/Testimonials" component={Testimonials} />
-
-					{/* <Route exact path='/about' component={About} /> */}
-					{/* <Route exact path='/user/:login' component={User}/> */}
 				</Switch>
 			</Router>
+			
 		</div>
 	);
 }
