@@ -47,3 +47,19 @@ body {
 .quote{
 	float: right;
 }
+
+.social-links {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+	font-size: 5rem;
+	/* color: #fff; */
+	padding: 8px;
+	margin-top:5rem;
+	margin-left:10rem;
+}
+.fa {
+	color: black;
+  }

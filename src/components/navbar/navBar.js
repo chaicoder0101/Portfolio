@@ -8,7 +8,6 @@ const navBar = () => {
 				<Link className="navbar-brand" to="/">
 					Why Hire Me?
 				</Link>
-
 				<button
 					className="navbar-toggler"
 					type="button"
