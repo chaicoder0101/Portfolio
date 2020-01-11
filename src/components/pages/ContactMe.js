@@ -4,9 +4,7 @@ const ContactMe = () => {
 	return <Fragment>
 
         <div className="social-links">
-        {/* <a href="http://www.google.com" rel="noopener noreferrer" target="_blank">
-        <i className="fa fa-linkedin-square" aria-hidden="true" />
-        </a> */}
+    
         <h4 style={{"color":"white"}}>E-Mail : gyurmey1835@gmail.com</h4>
 
         <a href="https://github.com/gyurmey" rel="noopener noreferrer" target="_blank">
