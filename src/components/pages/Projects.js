@@ -4,8 +4,8 @@ import '../../App.css';
 const Projects = () => {
     return (
         <Fragment>
-     <div className="projects">
-        <div className="card" >
+     <div className="projects ">
+        <div className="card" style={{"flex" : "0 1 15%", "margin-top":"10rem","margin-left": "7rem"}} >
         <div className="card-body">
         <img src={require("../../github.png")} className="card-img-top" alt="ServerSideApp" />
 
@@ -16,7 +16,7 @@ const Projects = () => {
      </div>
 
 
-     <div className="card" >
+     <div className="card" style={{"flex" : "0 1 15%", "margin-top":"10rem","margin-left": "7rem"}} >
     <div className="card-body">
     <img src={require("../../github.png")} className="card-img-top" alt="Voting App" />
     <h5 className="card-title">University Polling App</h5>
@@ -26,7 +26,7 @@ const Projects = () => {
     </div>
 
 
-    <div className="card" >
+    <div className="card" style={{"flex" : "0 1 15%", "margin-top":"10rem","margin-left": "7rem"}}  >
     <div className="card-body">
     <img src={require("../../github.png")} className="card-img-top" alt="Info logger" />
     <h5 className="card-title">Contact-Info logger</h5>
