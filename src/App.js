@@ -24,7 +24,6 @@ function App() {
 					<Route exact path="/Testimonials" component={Testimonials} />
 				</Switch>
 			</Router>
-			
 		</div>
 	);
 }

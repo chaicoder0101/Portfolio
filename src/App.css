@@ -25,26 +25,24 @@ body {
 	margin-left: 24rem;
 }
 
-.alert{
-
-	margin-top:2rem;
+.alert {
+	margin-top: 2rem;
 }
 
-.projects{
+.projects {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	
 }
 
-.testimonials{
+.testimonials {
 	border: #ccc solid 1px;
 	background-color: antiquewhite;
-	margin-top:8rem;
+	margin-top: 8rem;
 }
 
-.quote{
+.quote {
 	float: left;
 }
 
@@ -56,9 +54,9 @@ body {
 	margin: auto;
 	font-size: 5rem;
 	padding: 8px;
-	margin-top:5rem;
-	margin-left:10rem;
+	margin-top: 5rem;
+	margin-left: 10rem;
 }
 .fa {
 	color: black;
-  }
+}
