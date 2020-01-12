@@ -28,10 +28,10 @@ const Projects = () => {
 
     <div className="card" >
     <div className="card-body">
-    <img src={require("../../github.png")} className="card-img-top" alt="Wordpress" />
-    <h5 className="card-title">Wordpress Site</h5>
-    <p className="card-text">Wordpress Site to show university site</p>
-    <a href="#" className="btn btn-primary">GitHub</a>
+    <img src={require("../../github.png")} className="card-img-top" alt="Info logger" />
+    <h5 className="card-title">Contact-Info logger</h5>
+    <p className="card-text">A MERN stack application to add contact information with authentication.</p>
+    <a href="https://github.com/gyurmey/contact-info-logger" className="btn btn-primary">GitHub</a>
     </div>
     </div>
 
