@@ -28,7 +28,7 @@ body {
 /* for desktop */
 @media (min-width: 1800px) {
 	.TypeWriter {
-		margin-top: 6rem;
+		margin-top: 10rem;
 		margin-left: 40rem;
 	}
 }
