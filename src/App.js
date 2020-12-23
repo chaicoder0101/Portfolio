@@ -11,17 +11,16 @@ import Projects from './components/pages/Projects';
 
 function App() {
 	return (
-		<div className="container">
+		<div className='container'>
 			<Router>
 				<NavBar />
-				{/* <Main /> */}
 
 				<Switch>
-					<Route exact path="/" component={Main} />
-					<Route exact path="/AboutMe" component={AboutMe} />
-					<Route exact path="/ContactMe" component={ContactMe} />
-					<Route exact path="/Projects" component={Projects} />
-					<Route exact path="/Testimonials" component={Testimonials} />
+					<Route exact path='/' component={Main} />
+					<Route exact path='/AboutMe' component={AboutMe} />
+					<Route exact path='/ContactMe' component={ContactMe} />
+					<Route exact path='/Projects' component={Projects} />
+					<Route exact path='/Testimonials' component={Testimonials} />
 				</Switch>
 			</Router>
 		</div>
