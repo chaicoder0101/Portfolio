@@ -67,3 +67,8 @@ body {
 .fa {
 	color: black;
 }
+
+.title {
+	color: black;
+	font-style: italic;
+}
