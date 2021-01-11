@@ -2,12 +2,12 @@ import React from 'react';
 
 const AboutMe = () => {
 	return (
-		<div class='accordion' id='accordionExample' style={{ 'margin-top': '2rem' }}>
-			<div class='card'>
-				<div class='card-header' id='headingOne'>
-					<h2 class='mb-0'>
+		<div className='accordion' id='accordionExample' style={{ 'margin-top': '2rem' }}>
+			<div className='card'>
+				<div className='card-header' id='headingOne'>
+					<h2 className='mb-0'>
 						<button
-							class='btn btn-link'
+							className='btn btn-link'
 							type='button'
 							data-toggle='collapse'
 							data-target='#collapseOne'
@@ -21,21 +21,21 @@ const AboutMe = () => {
 
 				<div
 					id='collapseOne'
-					class='collapse show'
+					className='collapse show'
 					aria-labelledby='headingOne'
 					data-parent='#accordionExample'
 				>
-					<div class='card-body'>
+					<div className='card-body'>
 						<li>B.Tech in Computer Science Engineering.</li>
 						<li>Msc in International Software System Science.</li>
 					</div>
 				</div>
 			</div>
-			<div class='card'>
-				<div class='card-header' id='headingTwo'>
-					<h2 class='mb-0'>
+			<div className='card'>
+				<div className='card-header' id='headingTwo'>
+					<h2 className='mb-0'>
 						<button
-							class='btn btn-link collapsed'
+							className='btn btn-link collapsed'
 							type='button'
 							data-toggle='collapse'
 							data-target='#collapseTwo'
@@ -46,8 +46,8 @@ const AboutMe = () => {
 						</button>
 					</h2>
 				</div>
-				<div id='collapseTwo' class='collapse' aria-labelledby='headingTwo' data-parent='#accordionExample'>
-					<div class='card-body'>
+				<div id='collapseTwo' className='collapse' aria-labelledby='headingTwo' data-parent='#accordionExample'>
+					<div className='card-body'>
 						{/* <li>
 							Selected to attend in "GOING BEYOND" live interaction with Astronaut Sunita Williams
 							organized by Atlantis Research in collaboration with American center, New Delhi.
@@ -58,11 +58,11 @@ const AboutMe = () => {
 					</div>
 				</div>
 			</div>
-			<div class='card'>
-				<div class='card-header' id='headingThree'>
-					<h2 class='mb-0'>
+			{/* <div className='card'>
+				<div className='card-header' id='headingThree'>
+					<h2 className='mb-0'>
 						<button
-							class='btn btn-link collapsed'
+							className='btn btn-link collapsed'
 							type='button'
 							data-toggle='collapse'
 							data-target='#collapseThree'
@@ -73,20 +73,24 @@ const AboutMe = () => {
 						</button>
 					</h2>
 				</div>
-				<div id='collapseThree' class='collapse' aria-labelledby='headingThree' data-parent='#accordionExample'>
-					<div class='card-body'>
+				<div
+					id='collapseThree'
+					className='collapse'
+					aria-labelledby='headingThree'
+					data-parent='#accordionExample'
+				>
+					<div className='card-body'>
 						<li>To develop creative application in web development.</li>
 						<li>Learn about the latest Technology in web development.</li>
-						{/* <li>Playing guitar and participating in jam sessions.</li> */}
 					</div>
 				</div>
-			</div>
+			</div> */}
 
-			<div class='card'>
-				<div class='card-header' id='headingThree'>
-					<h2 class='mb-0'>
+			{/* <div className='card'>
+				<div className='card-header' id='headingThree'>
+					<h2 className='mb-0'>
 						<button
-							class='btn btn-link collapsed'
+							className='btn btn-link collapsed'
 							type='button'
 							data-toggle='collapse'
 							data-target='#collapseThree'
@@ -97,8 +101,13 @@ const AboutMe = () => {
 						</button>
 					</h2>
 				</div>
-				<div id='collapseThree' class='collapse' aria-labelledby='headingThree' data-parent='#accordionExample'>
-					<div class='card-body'>
+				<div
+					id='collapseThree'
+					className='collapse'
+					aria-labelledby='headingThree'
+					data-parent='#accordionExample'
+				>
+					<div className='card-body'>
 						<li>Excellent management skills.</li>
 						<li>Good programming skills.</li>
 						<li>Fast learner</li>
@@ -107,7 +116,7 @@ const AboutMe = () => {
 						<li>Extremely good work ethic.</li>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };
