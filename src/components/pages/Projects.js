@@ -35,12 +35,10 @@ const Projects = () => {
 
 				<div className='card' style={{ flex: '0 1 15%', 'margin-top': '10rem', 'margin-left': '7rem' }}>
 					<div className='card-body'>
-						<img src={require('../../github.png')} className='card-img-top' alt='Info logger' />
-						<h5 className='card-title'>Contact-Info logger</h5>
-						<p className='card-text'>
-							A MERN stack application to add contact information with authentication.
-						</p>
-						<a href='https://github.com/gyurmey/contact-info-logger' className='btn btn-primary'>
+						<img src={require('../../github.png')} className='card-img-top' alt='camera PWA' />
+						<h5 className='card-title'>Camera PWA</h5>
+						<p className='card-text'>A Full-stack PWA built using react and node in Typescript.</p>
+						<a href='https://github.com/gyurmey/camera-PWA' className='btn btn-primary'>
 							GitHub
 						</a>
 					</div>
