@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
 	return (
-		<div className='accordion' id='accordionExample' style={{ 'margin-top': '2rem' }}>
+		<div className='accordion' id='accordionExample' style={{ 'margin-top': '4rem' }}>
 			<div className='card'>
 				<div className='card-header' id='headingOne'>
 					<h2 className='mb-0'>
