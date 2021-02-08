@@ -3,11 +3,11 @@ import React, { Fragment } from 'react';
 const ContactMe = () => {
 	return (
 		<Fragment>
-			<div className="social-links">
-				<h4 style={{ color: 'white' }}>E-Mail : gyurmey1835@gmail.com</h4>
+			<div className='social-links'>
+				<h4 style={{ color: 'black' }}>E-Mail : gyurmey1835@gmail.com</h4>
 
-				<a href="https://github.com/gyurmey" rel="noopener noreferrer" target="_blank">
-					<i className="fa fa-github-square" aria-hidden="true" />
+				<a href='https://github.com/gyurmey' rel='noopener noreferrer' target='_blank'>
+					<i className='fa fa-github-square' aria-hidden='true' />
 				</a>
 			</div>
 		</Fragment>
