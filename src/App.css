@@ -73,7 +73,8 @@ body {
 	font-style: italic;
 }
 
-.accordion {
+.accordion,
+.testimonials {
 	margin: auto;
 	position: absolute;
 	top: 0;
