@@ -4,12 +4,12 @@ import '../../App.css';
 
 const main = () => {
 	return (
-		<div className="TypeWriter">
+		<div className='TypeWriter'>
 			<h1>
 				Tenzin Gyurmey The {' '}
 				<Typical
 					loop={Infinity}
-					wrapper="b"
+					wrapper='b'
 					steps={[
 						'Developer',
 						1000,
