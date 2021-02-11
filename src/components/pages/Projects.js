@@ -13,6 +13,7 @@ const Projects = () => {
 						<p className='card-text'>A Context Aware Experience Sampling Server Side App.</p>
 						<a
 							target='_blank'
+							rel='noopener noreferrer'
 							href='https://github.com/gyurmey/Context-Aware-Experience-Sampling'
 							className='btn btn-primary mt-auto'
 						>
@@ -30,6 +31,7 @@ const Projects = () => {
 						</p>
 						<a
 							target='_blank'
+							rel='noopener noreferrer'
 							href='https://github.com/gyurmey/university-voting-web-app'
 							className='btn btn-primary mt-auto'
 						>
@@ -45,6 +47,7 @@ const Projects = () => {
 						<p className='card-text'>A Full-stack PWA built using react and node in Typescript.</p>
 						<a
 							target='_blank'
+							rel='noopener noreferrer'
 							href='https://github.com/gyurmey/camera-PWA'
 							className='btn btn-primary mt-auto'
 						>
