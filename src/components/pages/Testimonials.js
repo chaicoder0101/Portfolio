@@ -12,7 +12,7 @@ const Testimonials = () => {
 					professional life. We would be happy to welcome Mr. Tenzin Gyurmey to our company again."
 				</p>
 				<span className='quote'>
-					<h4>- Felix Furtmayr, CEO, Rapidfacture GmbH</h4>
+					<h6>- Felix Furtmayr, CEO, Rapidfacture GmbH</h6>
 				</span>
 			</div>
 		</div>
