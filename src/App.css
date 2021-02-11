@@ -89,3 +89,7 @@ body {
 	/* padding: 5px 50px;
 	margin: 30vh 20vw; */
 }
+
+.testimonials p {
+	font-style: italic;
+}
