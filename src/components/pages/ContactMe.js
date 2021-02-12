@@ -13,13 +13,6 @@ export default class MyForm extends React.Component {
 		const { status } = this.state;
 		return (
 			<Fragment>
-				{/* <div className='social-links'>
-					<h4 style={{ color: 'black' }}>E-Mail : gyurmey1835@gmail.com</h4>
-
-					<a href='https://github.com/gyurmey' rel='noopener noreferrer' target='_blank'>
-						<i className='fa fa-github-square' aria-hidden='true' />
-					</a>
-				</div> */}
 				<div className='notify'>
 					{' '}
 					{status === 'SUCCESS' && <p>Thanks! Will get back to you soon...</p>}
